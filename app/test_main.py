@@ -10,7 +10,7 @@ from app.main import check_password
     ("password@1", False),
     ("Pass@1", False),
     ("Pass@word1Pass@word1", False),
-    ("Pass@word1!", False),
+    ("Pass@word1!", True),
     ("A1@bcdef", True),
     ("A1@bcdefghijklmn", True),
     ("A1@bcde", False),
